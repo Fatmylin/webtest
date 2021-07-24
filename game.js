@@ -123,13 +123,13 @@ initgame();
 				if (checkcombo(ww))
 				{
 					gameover = true ;
-					$('.ss').text('Press any key to start a new game ！');
+					$('.ss').text('Press any key to start a new game!');
 					return;
 				}
 			}
 			if (currentstep === 9)
 			{
-				$('.ss').text('Drawl！Press any key to start a new game ！');
+				$('.ss').text('Draw! Press any key to start a new game!');
 				gameover = true ;
 				return ;
 			}
